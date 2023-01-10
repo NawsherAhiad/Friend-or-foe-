@@ -1,4 +1,4 @@
-# Friend-or-foe-
+# Friend-or-foe?
 
 The red kingdom is in war with the blue kingdom. You are the general of the red kingdom. The red army and the blue army have n soldiers combined (including you). The soldiers are all numbered from 1 to n. To keep track of who the red soldiers are, you noted down the numbers of your soldiers in a piece of paper. However, during the battle you lost that paper and now you are scared that you have no way of knowing who your own soldiers are. An assistant of yours says that he has noted down which soldier fought with which soldier in the battle. You see, the entire battle was fought as a series of duels between two soldiers, one from the red army and the other from the blue army.
 Now, you know you are numbered 1 and you are a member of the red army. Combining the information provided by your assistant and the fact that your own number is 1, it is now possible to determine which soldiers are red and which are blue. Figure it out yourself now!
