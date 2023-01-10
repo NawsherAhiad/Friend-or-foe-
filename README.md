@@ -4,30 +4,30 @@ The red kingdom is in war with the blue kingdom. You are the general of the red 
 Now, you know you are numbered 1 and you are a member of the red army. Combining the information provided by your assistant and the fact that your own number is 1, it is now possible to determine which soldiers are red and which are blue. Figure it out yourself now!
 
 
-Input Format:
+Input Format:  
 The input starts with two integers n and e, denoting the number of soldiers in the red and blue army combined, and the number of duels that were fought in the battle. e lines follow, each containing two integers u and v, meaning that a duel was fought between two soldiers numbered u and v respectively. It is guaranteed that no two soldiers from the same army will fight each other.
 
 
-Constraints:
+Constraints:  
 1<=n<=105
 1<=e<=5*105
 1<=u, v<=n
 
-Output Format:
+Output Format:  
 Output n lines, each containing a single character. If the i-th soldier is a red soldier, print "R" in the i-th line. If the i-th soldier is blue, print "B" in the i-th line. It is guaranteed that there will only be one possible correct answer according to the input.
 
-Sample Input:  
+Sample Input:    
 4 3  
 1 2  
 2 3  
 3 4  
 
-Sample Output:  
+Sample Output:    
 R  
 B  
 R  
 B  
   
-Explanation:
+Explanation:  
 Soldier 1 is you and you are obviously red. Since soldiers 1 and 2 fought each other, they are from different armies and thus soldier 2 is blue. By the same logic, soldier 3 is red, since he fought with soldier 2. Finally, soldier 4 is blue since he fought with soldier 3.
 
