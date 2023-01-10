@@ -16,18 +16,18 @@ Constraints:
 Output Format:
 Output n lines, each containing a single character. If the i-th soldier is a red soldier, print "R" in the i-th line. If the i-th soldier is blue, print "B" in the i-th line. It is guaranteed that there will only be one possible correct answer according to the input.
 
-Sample Input:
-4 3
-1 2
-2 3
-3 4
+Sample Input:  
+4 3  
+1 2  
+2 3  
+3 4  
 
-Sample Output:
-R
-B
-R
-B
-
+Sample Output:  
+R  
+B  
+R  
+B  
+  
 Explanation:
 Soldier 1 is you and you are obviously red. Since soldiers 1 and 2 fought each other, they are from different armies and thus soldier 2 is blue. By the same logic, soldier 3 is red, since he fought with soldier 2. Finally, soldier 4 is blue since he fought with soldier 3.
 
